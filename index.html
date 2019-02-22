@@ -5,7 +5,7 @@ layout: default
 <nav id='sidebar'>
 	{% include nav.html %}
 </nav>
-
+</section>
 <section id='content'>
 {% for post in site.posts %}
   <article class='{{ post.type }}'>
@@ -13,6 +13,9 @@ layout: default
     <section class='body'>
       {{ post.content }}
     </section>
+  </article>
+  <article>
+    article change
   </article>
 {% endfor %}
 </section>
