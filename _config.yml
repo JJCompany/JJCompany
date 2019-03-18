@@ -1,6 +1,7 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-pygments: true
+pygments: false
+highlighter: rouge
 safe: false
 title: 'JJComapny with Haibane'
