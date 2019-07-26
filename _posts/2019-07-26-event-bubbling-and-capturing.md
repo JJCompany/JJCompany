@@ -11,13 +11,13 @@ layout: nil
 
 Event bubbling 예제 코드
 
-```
+'''
 <body>
     <div>
         <button></button>
     </div>
 </body>
-```
+'''
 
 예를 들어 위와 같은 코드에서 button의 이벤트가 동작하면 div, body의 순서로 연결된 이벤트들이 동작 하게 된다.
 이벤트 버블링을 막기 위해서는 event.stopPropagation()을 사용하여 이벤트가 전파하는것을 막는다.
@@ -27,7 +27,7 @@ Event bubbling 예제 코드
 
 Event Capturing 예제 코드
 
-```
+'''
 <body>
     <div><!--1번-->
         <div><!--2번-->
@@ -35,7 +35,7 @@ Event Capturing 예제 코드
         </div>
     </div>
 </body>
-```
+'''
 
 예를 들어 위와 같은 코드에서 div 또는 button의 이벤트를 발생 시켰을 경우 body, div(1번), div(2번), button(3번) 의 순서로 이벤트들이 동작 하게 된다.
 
