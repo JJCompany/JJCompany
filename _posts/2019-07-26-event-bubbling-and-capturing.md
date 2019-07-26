@@ -2,7 +2,7 @@
 category: Event
 path: '/Sorting/:id'
 title: 'Event Bubbling and Capturing'
-
+type: 'POST'
 layout: nil
 ---
 ### Event bubbling(이벤트 버블링)
