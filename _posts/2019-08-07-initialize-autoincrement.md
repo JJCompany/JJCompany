@@ -1,5 +1,5 @@
 ---
-category: SQL
+category: Sql
 path: '/SQL'
 title: 'SQL initialize-auto_increment'
 type: 'POST'
