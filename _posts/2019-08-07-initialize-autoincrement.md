@@ -12,5 +12,5 @@ int(11) auto_increment으로 설정을 하게 되면, 최대 4294967295까지 �
 MYSQL자동증가 값 초기화 방법
 * 초기화 예정인 테이블 자료 백업
 * 테이블 자료 삭제 ```delete from 'tablename'```
-* auto_increment 초기화 alter ```table 'tablename' auto_increment=1```
+* auto_increment 초기화 ```alter table 'tablename' auto_increment=1```
 * 백업한 데이터 인서트
