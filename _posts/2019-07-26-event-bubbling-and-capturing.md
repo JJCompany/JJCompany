@@ -1,6 +1,6 @@
 ---
 category: Event
-path: '/Sorting/:id'
+path: '/Event'
 title: 'Event Bubbling and Capturing'
 type: 'POST'
 layout: nil
